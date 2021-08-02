@@ -14,7 +14,7 @@ function Video(props) {
         </div>
         <div className="video-media col-12 col-xl-6 order-xl-1">
           <div className="ratio ratio-16x9">
-              <iframe className="video-media-iframe" src="https://www.youtube.com/embed/DWaB4PXCwFU" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+              <iframe className="video-media-iframe" src="https://www.youtube.com/embed/DWaB4PXCwFU" title="YouTube video player" frameBorder="0" allow="autoplay;" allowFullScreen></iframe>
           </div> 
 
         </div>
