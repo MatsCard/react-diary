@@ -1,0 +1,14 @@
+.gallery {
+    background-color: #101519;
+    height: inherit;
+}
+
+.carousel {
+    max-width:640px;
+    height:auto;
+  }
+
+  .card-img-top {
+    width: auto;
+    margin: 0 auto;
+  }

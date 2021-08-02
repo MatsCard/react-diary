@@ -1,0 +1,67 @@
+.sign-up {
+    height: 800px;
+    background-color: #101519;
+}
+
+.sign-up .input-group input{
+    background-color: #101519;
+}
+.sign-up-background {
+    background-image: url('../../images/background.png');
+    background-repeat: repeat;
+    height: 600px;
+
+}
+
+.sign-up-description h1 {
+    font-size: 2rem;
+}
+
+.sign-up-description p {
+    font-size: 1rem;
+    font-weight: normal;
+}
+
+.signup-info h5 {
+    font-size: 1.2rem;
+}
+
+.signup-info p {
+    font-size: 1rem;
+}
+
+
+
+
+@media screen and (min-width: 767px) {
+    .sign-up-description h1 {
+        font-size: 3rem;
+    }
+    .sign-up-description p {
+        font-size: 2rem;
+    }
+    .signup-info h5 {
+        font-size: 1.5rem;
+    }
+
+    .signup-info p {
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .sign-up-description h1 {
+        font-size: 4rem;
+    }
+    .sign-up-description p {
+        font-size: 3rem;
+    }
+
+    .signup-info h5 {
+        font-size: 2rem;
+    }
+
+    .signup-info p {
+        font-size: 1.5rem;
+    }
+}

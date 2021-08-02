@@ -1,0 +1,131 @@
+.introduction {
+    background-color: #040506;
+    height: 1000px;
+}
+
+.introduction-background {
+    background-image: url('../../images/background.png');
+    background-repeat: repeat;
+    height: 800px;
+}
+
+
+
+.introducion-img img {
+    width: 100%;
+    max-width: 600px;
+}
+
+
+.introduction-title {
+    font-size: 2.1rem;
+}
+
+
+.introduction-description h4 {
+    font-size: 1rem;
+}
+
+@media screen and (min-width: 400px) {
+
+    .introduction {
+        height: 1300px;
+    }
+  }  
+
+
+@media screen and (min-width: 767px) {
+    .introduction-title {
+      font-size: 3rem;
+    }
+    .introduction-description h4 {
+      font-size: 2rem;
+    }
+    .introduction {
+        height: 1500px;
+    }
+  }  
+  @media screen and (min-width: 1024px) {
+  
+    .introduction-title {
+        font-size: 5rem;
+      }
+
+    .introduction-description h4 {
+    font-size: 3rem;
+    }
+  }
+
+
+
+
+  .btn-cyan {
+    background-color: #4a8f91;
+  }
+  
+  .text-cyan {
+    color: #53a5a8;
+    font-weight: bold;
+  }
+  
+  .introduction-text {
+    font-size: 1rem;
+  }
+  
+  .introduction-title {
+    font-size: 1rem ;
+  }
+  
+  .introduction-title p {
+    font-size: 0.8rem;
+  }
+  
+  .btn-cyan {
+    font-size: 1rem ;
+  }
+  
+  * {
+    font-family: objektiv-mk2, Sans-serif;
+    margin: 0;
+  }
+  
+  @media screen and (min-width: 767px) {
+    .introduction-text {
+      font-size: 2rem;
+    }
+    
+    .introduction-title {
+      font-size: 3rem;
+    }
+  
+    .introduction-title p {
+      font-size: 1.2rem;
+    }
+  
+    .btn-cyan {
+      font-size: 1rem ;
+    }
+  }
+  
+  @media screen and (min-width: 1024px) {
+  
+    .introduction-title p {
+      font-size: 1.8rem;
+    }
+  
+    .introduction-text {
+      font-size: 3rem;
+    }
+    
+    .introduction-title p {
+      font-size: 1.2rem;
+    }
+  
+    .introduction-title {
+      font-size: 5rem;
+    }
+    
+    .btn-cyan {
+      font-size: 1rem ;
+    }
+  }

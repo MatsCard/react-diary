@@ -1,0 +1,28 @@
+.video {
+    background-color: #101519;/* 
+    width: 100%; */
+}
+
+
+.video-text {
+    height: auto;
+}
+
+.video-title {
+    font-size: 1rem;
+}
+
+.video-description {
+    font-size: 0.8rem;
+}
+
+
+@media screen and (min-width: 767px) {
+    .video-title {
+        font-size: 2rem;
+    }
+    
+    .video-description {
+        font-size: 1.2rem;
+    }
+}
