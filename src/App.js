@@ -14,6 +14,7 @@ function App() {
       <Layout>
         <Switch>
           <Route exact path="/" component={Home} /> 
+          <Route exact path="/react-diary" component={Home} /> 
           <Route exact path="/notFound404" component={NotFound} />
           <Redirect from="*" to="notFound404"></Redirect>
         </Switch>
